@@ -2,7 +2,7 @@ Simon Says:
 
 4-16 colored boxes on bottom 2/3rds of screen.
 
-On pressing "Start" button, will highlight random sequence of button pressesthat the user must replicate. Each successfuly button press adds 1 point, completing a sequence successfuly gives and additional 10 points.
+On pressing "Start" button, will highlight random sequence of button pressesthat the user must replicate. Each successfuly button press adds 1 point, completing a sequence successefuly gives and additional 10 points.
 
 Sequences become progressively harder and longer using the following metrics:
 speed (10 speeds)
