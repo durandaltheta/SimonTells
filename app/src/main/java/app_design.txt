@@ -6,7 +6,7 @@ On pressing "Start" button, will highlight random sequence of button pressesthat
 
 Sequences become progressively harder and longer using the following metrics:
 speed (10 speeds)
-length (4..N)
+length (4+N) N begins at 0
 number of boxes (4,8,16)
 
 Every 5 completed sequences increments speed tier.
@@ -14,3 +14,5 @@ Every 5 completed sequences increments speed tier.
 Sequence length is: base_length+counter //counter is set to 0 at the beginning of each speed tier, increments after completing every successful completion. base_length increments after every speed tier
 
 number of boxes is determined before play
+
+
