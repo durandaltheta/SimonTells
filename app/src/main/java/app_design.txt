@@ -1,0 +1,16 @@
+Simon Says:
+
+4-16 colored boxes on bottom 2/3rds of screen.
+
+On pressing "Start" button, will highlight random sequence of button pressesthat the user must replicate. Each successfuly button press adds 1 point, completing a sequence successfuly gives and additional 10 points.
+
+Sequences become progressively harder and longer using the following metrics:
+speed (10 speeds)
+length (4..N)
+number of boxes (4,8,16)
+
+Every 5 completed sequences increments speed tier.
+
+Sequence length is: base_length+counter //counter is set to 0 at the beginning of each speed tier, increments after completing every successful completion. base_length increments after every speed tier
+
+number of boxes is determined before play
